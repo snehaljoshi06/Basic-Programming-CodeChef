@@ -1,10 +1,3 @@
-// CodeChef: TALLER
 #include <iostream>
 using namespace std;
-int main() {
-    int t; cin >> t;
-    while (t--) {
-        int x, y; cin >> x >> y;
-        cout << (x > y ? "A" : "B") << '\n';
-    }
-}
+int main(){int t;cin>>t;while(t--){int x,y;cin>>x>>y;cout<<(x>y?"A":"B")<<'\n';}}
