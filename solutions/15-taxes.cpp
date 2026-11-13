@@ -1,10 +1,3 @@
-// CodeChef: TAXES
 #include <iostream>
 using namespace std;
-int main() {
-    int t; cin >> t;
-    while (t--) {
-        int x; cin >> x;
-        cout << (x > 100 ? x - 10 : x) << '\n';
-    }
-}
+int main(){int t;cin>>t;while(t--){int x;cin>>x;cout<<(x>100?x-10:x)<<'\n';}}
