@@ -1,4 +1,4 @@
-// CodeChef Learn: CSC02A
+// CodeChef: CSC02A
 #include <iostream>
 using namespace std;
 int main() {
