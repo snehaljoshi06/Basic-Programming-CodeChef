@@ -75,3 +75,8 @@ The `screenshots/` folder is reserved for genuine screenshots from your CodeChef
 ## Before submitting
 
 These are reference implementations based on the workbook problem descriptions. Check each linked CodeChef page for its exact input format and current constraints, then run the sample tests and submit your own solution to CodeChef. A source file in this repository is not, by itself, proof of an accepted CodeChef submission.
+
+
+## Topic 2 — Number System
+
+The separate Number System assignment contains 26 C++17 programs from the same course workbook. Open the [Number-System folder](Number-System/) for its README, problem list, and individual solutions. This topic is kept separate from the 30 Basic Programming exercises above.
