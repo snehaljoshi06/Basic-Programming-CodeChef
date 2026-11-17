@@ -17,6 +17,7 @@ This repository organizes the workbook assignments into separate topic folders.
 | 3 | Arrays | 30 | [Arrays/](Arrays/) |
 | 4 | Matrix | 20 | [Matrix/](Matrix/) |
 | 5 | String | 30 | [Strings/](Strings/) |
+| 6 | Math | 20 | [Math/](Math/) |
 | 4 | Matrix | 20 | [Matrix/](Matrix/) |
 
 Each topic folder contains its own README, problem list, and individual C++ source files. Keep each Moodle topic submission separate and use the matching folder link.
