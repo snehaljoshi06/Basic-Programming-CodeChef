@@ -1,0 +1,4 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main(){int n,m;cin>>n>>m;vector<long long>a(n),b(m);for(auto&x:a)cin>>x;for(auto&x:b)cin>>x;int i=0,j=0;vector<long long>u,in;while(i<n&&j<m){if(a[i]<b[j]){if(u.empty()||u.back()!=a[i])u.push_back(a[i]);i++;}else if(a[i]>b[j]){if(u.empty()||u.back()!=b[j])u.push_back(b[j]);j++;}else{if(u.empty()||u.back()!=a[i])u.push_back(a[i]);if(in.empty()||in.back()!=a[i])in.push_back(a[i]);i++;j++;}}while(i<n){if(u.empty()||u.back()!=a[i])u.push_back(a[i]);i++;}while(j<m){if(u.empty()||u.back()!=b[j])u.push_back(b[j]);j++;}cout<<"Union count: "<<u.size()<<"\nUnion: ";for(auto x:u)cout<<x<<' ';cout<<"\nIntersection: ";for(auto x:in)cout<<x<<' ';cout<<'\n';}
