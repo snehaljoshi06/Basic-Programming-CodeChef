@@ -1,0 +1,4 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){string text,pat;getline(cin,text);getline(cin,pat);if(pat.empty()){cout<<"Empty pattern\n";return 0;}const long long mod=1000000007,base=256;long long hp=0,ht=0,pow=1;int m=pat.size(),n=text.size();if(m>n){cout<<"No match\n";return 0;}for(int i=0;i<m;i++){hp=(hp*base+(unsigned char)pat[i])%mod;ht=(ht*base+(unsigned char)text[i])%mod;if(i<m-1)pow=pow*base%mod;}bool found=false;for(int i=0;i<=n-m;i++){if(hp==ht&&text.compare(i,m,pat)==0){cout<<i<<' ';found=true;}if(i<n-m){ht=((ht-(unsigned char)text[i]*pow%mod+mod)%mod*base+(unsigned char)text[i+m])%mod;}}if(!found)cout<<"No match";cout<<'\n';}
