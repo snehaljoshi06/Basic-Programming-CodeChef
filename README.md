@@ -14,6 +14,7 @@ This repository organizes the workbook assignments into separate topic folders.
 |---:|---|---:|---|
 | 1 | Basic Programming | 30 | [Basic-Programming/](Basic-Programming/) |
 | 2 | Number System | 26 | [Number-System/](Number-System/) |
+| 3 | Arrays | 30 | [Arrays/](Arrays/) |
 
 Each topic folder contains its own README, problem list, and individual C++ source files. Keep each Moodle topic submission separate and use the matching folder link.
 
