@@ -1,0 +1,5 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+int main(){string s;cin>>s;string r=s;reverse(r.begin(),r.end());cout<<(s==r?"Palindrome number":"Not a Palindrome number")<<'\n';}
